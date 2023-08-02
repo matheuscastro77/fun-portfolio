@@ -7,7 +7,6 @@ import {
   Text,
   useGLTF,
 } from "@react-three/drei";
-import { useControls } from "leva";
 
 export default function Experience() {
   const macbook = useGLTF("models/macbookpro2.glb");
